@@ -1,0 +1,168 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Cosmos (23.0.0)
+  - Differentiator (5.0.0)
+  - IQKeyboardManagerSwift (6.5.9)
+  - KafkaRefresh (1.5.0):
+    - KafkaRefresh/Category (= 1.5.0)
+    - KafkaRefresh/Configuration (= 1.5.0)
+    - KafkaRefresh/Core (= 1.5.0)
+    - KafkaRefresh/Default (= 1.5.0)
+    - KafkaRefresh/Style (= 1.5.0)
+    - KafkaRefresh/UIKit (= 1.5.0)
+  - KafkaRefresh/Category (1.5.0)
+  - KafkaRefresh/Configuration (1.5.0):
+    - KafkaRefresh/UIKit/FootKit
+    - KafkaRefresh/UIKit/HeadKit
+  - KafkaRefresh/Core (1.5.0):
+    - KafkaRefresh/Category
+  - KafkaRefresh/Default (1.5.0):
+    - KafkaRefresh/Style
+  - KafkaRefresh/Style (1.5.0)
+  - KafkaRefresh/UIKit (1.5.0):
+    - KafkaRefresh/UIKit/FootKit (= 1.5.0)
+    - KafkaRefresh/UIKit/HeadKit (= 1.5.0)
+    - KafkaRefresh/UIKit/LayerKit (= 1.5.0)
+  - KafkaRefresh/UIKit/FootKit (1.5.0):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/HeadKit (1.5.0):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/LayerKit (1.5.0):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Default
+  - Kingfisher (6.3.1)
+  - MBProgressHUD (1.2.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - R.swift (6.1.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SkeletonView (1.29.2)
+  - SnapKit (5.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftLint (0.47.0)
+
+DEPENDENCIES:
+  - Cosmos (~> 23.0)
+  - IQKeyboardManagerSwift
+  - KafkaRefresh
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`, branch `version6-xcode13`)
+  - MBProgressHUD (~> 1.2)
+  - Moya/RxSwift
+  - R.swift
+  - RxCocoa
+  - RxDataSources (~> 5.0)
+  - RxGesture
+  - RxSwift
+  - SkeletonView
+  - SnapKit (~> 5.0)
+  - SVProgressHUD
+  - SwifterSwift
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - Differentiator
+    - IQKeyboardManagerSwift
+    - KafkaRefresh
+    - MBProgressHUD
+    - Moya
+    - R.swift
+    - R.swift.Library
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SkeletonView
+    - SnapKit
+    - SVProgressHUD
+    - SwifterSwift
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :branch: version6-xcode13
+    :git: https://github.com/onevcat/Kingfisher.git
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: 2742b4de5036f9352d94c891495a3af3b9bdb67c
+    :git: https://github.com/onevcat/Kingfisher.git
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  KafkaRefresh: 01645b1509b8647809f6bb666629c80855bd3fdd
+  Kingfisher: 8b783c3d7be73a99b2172a743a5bc0a4dd331d79
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftLint: d41cc46a2ae58ac6d9f26954bc89f1d72e71fdef
+
+PODFILE CHECKSUM: 4cea6d5adb2f34964c29d7e30834b3af834709b3
+
+COCOAPODS: 1.11.2
